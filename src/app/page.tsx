@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import gif from "./../../public/3260_R1NUIEpPUyAxMzQtMjc.jpg"
 import Link from 'next/link'
-import { LoginForm } from '../components/login.tsx'
+import { LoginForm } from '../components/login'
 
 export default function Home() {
   const formClass = "absolute h-[17%] w-[25%] inset-0 m-auto flex items-center z-10 justify-center top-[-5%] scale-100 transition-transform rounded-3xl duration-300 "
