@@ -47,7 +47,7 @@ export default function Home() {
           </Button>
         </div>
         <div className="w-[55%] h-full flex items-center justify-center">
-          <Image src={gif} width={600}></Image>
+          <Image alt="someImage!!" src={gif} width={600}></Image>
         </div>
       </div>
     </div>
